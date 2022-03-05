@@ -11,6 +11,19 @@
     margin: 20px 30px;
   }
 
+  .contact-div {
+    width: 360px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  
+    .contact-div img {
+    width: 360px;
+    height: 220px;
+  }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -90,9 +103,26 @@
     margin: 10px;
   }
 
+  .row h3 {
+    margin-left: 55px;
+  }
+
   .row-2 {
     justify-content: center;
   }
+
+  .photo_gallery {
+    width: 350px;
+    height: 240px;
+    
+}
+
+
+.gallery-div {
+    width: 350px;
+    height: 240px;
+    
+}
 
   .gallery-div:hover {
     transform: none;
@@ -118,29 +148,29 @@
   }
 
   .contact-div {
-  max-width: 380px;
-  
+  width: 380px;
+  height: 420px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
   }
 
   .contact-div img {
   width: 380px;
-  height: 320px;
+  height: 240px;
   }
 
-  .photo_gallery {
-    width: 380px;
-    height: 280px;
+  .form-div input {
+    width: 100%;
   }
 
-.gallery-div {
-    width: 380px;
-    height: 280px;
-    margin: 20px;
-    
-}
+  .form-div select {
+    min-width: 100%;
+  }
 
-.row {
-  max-width: 400px;
-}
+  .form-background {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
 }
