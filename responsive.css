@@ -108,7 +108,7 @@
 
   
   .field {
-    max-width: 380px;
+    max-width: 300px;
     padding: 5px 10px;
  
   }
@@ -118,7 +118,7 @@
   }
 
   .contact-div {
-  width: 460px;
+  width: 400px;
   height: 480px;
   margin-left: 0;
   margin-right: 0;
@@ -126,8 +126,24 @@
   }
 
   .contact-div img {
-  width: 480px;
+  width: 400px;
   height: 320px;
   }
+
+  .photo_gallery {
+    width: 380px;
+    height: 280px;
+  }
+
+.gallery-div {
+    width: 380px;
+    height: 280px;
+    margin: 20px;
+    
+}
+
+.row {
+  width: 430px;
+}
 
 }
