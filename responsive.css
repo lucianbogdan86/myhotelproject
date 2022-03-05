@@ -134,6 +134,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 0;
+    max-width: 100%;
   }
 
   
@@ -171,6 +172,10 @@
   .form-background {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .row-4 {
+    max-width: 100%;
   }
 
 }
