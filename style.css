@@ -6,7 +6,8 @@ body {
     color: rgba(31, 31, 31, 0.952);
     text-align: justify;
     text-justify: inter-word;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100vw !important;
 }
 
 
