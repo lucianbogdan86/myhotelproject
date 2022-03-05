@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a1094c4aa7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="typography.css">
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hotel Aviva / Contact</title>
+</head>
+<body>
+
+    <div class="transition transition-1 is-active"></div>
+
+    <div class="container-top">
+        <div class="logo"><img href="#" src="./logos/avivalogo.png" alt="logo"></div>
+        <nav class="navbar">
+            <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="index.html">Home</a></li>
+            <li class="list-item"><a href="gallery.html">Gallery</a></li>
+            <li class="list-item"><a href="tariffs.html">Tariffs</a></li>
+            <li class="list-item"><a href="booking.html">Online Booking</a></li>
+            <li class="list-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row-3">
+            <div class="contact-div">
+                <img src="./photos/contact/conference.jpg" alt="conference">    
+                <h4>Conference & Events</h4>
+                <p><img src="./logos/phone.svg" style="height: 15px; width: 15px;"></img> +40799100100</p>
+                <p><img src="./logos/email.svg" style="height: 15px; width: 15px;"> events@hotelaviva.ro</p>
+            </div>
+            <div class="contact-div">
+                <img src="./photos/contact/dining.png" alt="dining">    
+                <h4>Dining & Bars</h4>
+                <p><img src="./logos/phone.svg" style="height: 15px; width: 15px;"></img> +40799100200</p>
+                <p><img src="./logos/email.svg" style="height: 15px; width: 15px;"> restaurant@hotelaviva.ro</p>
+            </div>
+            <div class="contact-div">
+                <img src="./photos/contact/wedding.jpg" alt="wedding">    
+                <h4>Wedding</h4>
+                <p><img src="./logos/phone.svg" style="height: 15px; width: 15px;"></img> +40799100300</p>
+                <p><img src="./logos/email.svg" style="height: 15px; width: 15px;"> events@hotelaviva.ro</p>
+            </div>
+            <div class="contact-div">
+                <img src="./photos/contact/customer_support.jpg" alt="customer support">    
+                <h4>Customer Support</h4>
+                <p><img src="./logos/phone.svg" style="height: 15px; width: 15px;"></img> +40799300300</p>
+                <p><img src="./logos/email.svg" style="height: 15px; width: 15px;"> support@hotelaviva.ro</p>
+            </div> 
+        </div>                  
+        <div class="row-3">
+            <form id="myform" onsubmit="event.preventDefault(); validation()">
+                <h4>Contact Us</h4>
+                <div id="error_message"></div> 
+                <input type="text" class="field" id="name" placeholder="Name" required>
+                <input type="email" class="field" id="email" placeholder="Email" required>
+                <input type="text" class="field" id="phone" placeholder="Phone" required>
+                <textarea class="field" id="message" placeholder="Message" required></textarea> 
+                <input type="submit" class="submit-btn">
+            </form>   
+        </div> 
+    </div>
+    <div class="container-bottom">
+        <div class="payments">
+            <div><a href="#"><img src="./logos/visa_logo_6.gif" alt="visa"></a></div>
+            <div><a href="#"><img src="./logos/mastercard_logo_5.gif" alt="master card"></a></div>
+            <div><a href="#"><img src="./logos/american_express_1.png" alt="american express"></a></div>
+            <div><a href="#"><img src="./logos/discover_network2.jpg" alt="discover network"></a></div>
+        </div>
+        <div class="company-info">
+            <p>SC HOTEL AVIVA SRL • Reg no: J00/1001/2022 • Fiscal Code: RO11111111 • Adress: Florilor St. no. 1, Resita, Caras-Severin, Romania</p>
+        </div>
+        <div class="social">
+            <div><a href="#"><img src="./logos/icons8-facebook.svg" alt="facebook"></a></div>
+            <div><a href="#"><img src="./logos/icons8-instagram.svg" alt="instagram"></a></div>
+            <div><a href="#"><img src="./logos/icons8-youtube.svg" alt="youtube"></a></div>
+            <div><a href="#"><img src="./logos/icons8-whatsapp.svg" alt="whatsapp"></a></div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div>
+            <p>Copyright © 2022 Hotel Aviva</p>
+        </div>
+    </div>
+    <script src="form.js"></script>
+    <script src="page_transition.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

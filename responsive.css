@@ -1,0 +1,133 @@
+@media screen and (max-width: 1400px) {
+  
+  .hotel_pics {
+    width: 170px;
+    height: 125px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 20px 30px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    height: 60px;
+     
+  }
+
+  .navbar a:hover {
+    color: white;
+   
+}
+
+  .navbar .active {
+    flex-direction: column;
+    height: 70px;
+    padding: 0;
+        
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+  }
+  
+
+  .nav-list .list-item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    border-top: 1px solid white;
+    background-color: rgb(70, 64, 64);
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    align-items: center;
+  }
+
+  .nav-list .list-item:hover {
+    background-color: rgb(24, 23, 23);
+  }
+
+  .active {
+    display: block;
+  }
+
+  .hotel_pics {
+    display: none;
+  }
+
+  .payments div {
+    margin-top: 15px;
+  }
+
+  .row {
+    margin: 10px;
+  }
+
+  .row-2 {
+    justify-content: center;
+  }
+
+  .gallery-div:hover {
+    transform: none;
+  } 
+
+  .row-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  
+  .field {
+    max-width: 380px;
+    padding: 5px 10px;
+ 
+  }
+
+  .reservation {
+    display: none;
+  }
+
+  .contact-div {
+  width: 460px;
+  height: 480px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
+  }
+
+  .contact-div img {
+  width: 480px;
+  height: 320px;
+  }
+
+}

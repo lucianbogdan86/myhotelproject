@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a1094c4aa7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="typography.css">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hotel Aviva / Contact</title>
+</head>
+<body>
+
+    <div class="transition transition-1 is-active"></div>
+
+    <div class="container-top">
+        <div class="logo"><img href="#" src="./logos/avivalogo.png" alt="logo"></div>
+        <nav class="navbar">
+            <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="index.html">Home</a></li>
+            <li class="list-item"><a href="gallery.html">Gallery</a></li>
+            <li class="list-item"><a href="tariffs.html">Tariffs</a></li>
+            <li class="list-item"><a href="booking.html">Online Booking</a></li>
+            <li class="list-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">                      
+        <div class="row-4">
+            <div class="form-title">
+                <div><h2 style="align-items: center;">Make Your Reservation</h2></div>
+                <div><img class="reservation" src="./photos/reservation_2.jpg"></div>
+            </div>
+            <div style="background-color: rgba(255, 255, 255, 0.541);">  
+            <form class="myForm-2" onsubmit="event.preventDefault(); validation()">                
+                <div class="form-error"><div id="error_message_2"></div></div>
+                <div class="form-div"><span class="form-label">First Name: </span><input type="text" class="field-2" id="first-name" required></div>
+                <div class="form-div"><span class="form-label">Last Name: </span><input type="text" class="field-2" id="last-name" required></div>
+                <div class="form-div"><span class="form-label">Email Adress: </span><input type="email" class="field-2" id="email" required></div>
+                <div class="form-div"><span class="form-label">Phone Number: </span><input type="text" class="field-2" id="phone" required></div>
+                <div class="form-div"><span class="form-label">Check-in Date: </span><input type="date" class="field-2" id="check-in" required></div>
+                <div class="form-div"><span class="form-label">Check-out Date: </span><input type="date" class="field-2" id="check-out" required></div>
+                <div class="form-div"><span class="form-label">Room Type: </span>
+                                        <select class="form-control" id="room" required>
+                                        <option value="" selected hidden></option>
+                                        <option>Junior Suite</option>
+                                        <option>Comfort Room</option>
+                                        <option>Superior Room</option>
+                                        <option>Deluxe Suite</option>
+                                        </select>
+                </div>
+                <div class="form-div"><span class="form-label">Number of Adults: </span><input type="number" min="1" max="2" class="field-2" id="adults" required></div>
+                <div class="form-div"><span class="form-label">Number of Children: </span><input type="number" min="0" max="2" class="field-2" id="children" required></div>
+                <button type="submit" class="submit-btn2">Book Now</button>
+            </form>
+            </div>    
+        </div> 
+    </div>
+    <div class="container-bottom">
+        <div class="payments">
+            <div><a href="#"><img src="./logos/visa_logo_6.gif" alt="visa"></a></div>
+            <div><a href="#"><img src="./logos/mastercard_logo_5.gif" alt="master card"></a></div>
+            <div><a href="#"><img src="./logos/american_express_1.png" alt="american express"></a></div>
+            <div><a href="#"><img src="./logos/discover_network2.jpg" alt="discover network"></a></div>
+        </div>
+        <div class="company-info">
+            <p>SC HOTEL AVIVA SRL • Reg no: J00/1001/2022 • Fiscal Code: RO11111111 • Adress: Florilor St. no. 1, Resita, Caras-Severin, Romania</p>
+        </div>
+        <div class="social">
+            <div><a href="#"><img src="./logos/icons8-facebook.svg" alt="facebook"></a></div>
+            <div><a href="#"><img src="./logos/icons8-instagram.svg" alt="instagram"></a></div>
+            <div><a href="#"><img src="./logos/icons8-youtube.svg" alt="youtube"></a></div>
+            <div><a href="#"><img src="./logos/icons8-whatsapp.svg" alt="whatsapp"></a></div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div>
+            <p>Copyright © 2022 Hotel Aviva</p>
+        </div>
+    </div>
+    <script src="form.js"></script>
+    <script src="page_transition.js"></script>
+    <script src="menu.js"></script>
+    <script src="booking.js"></script>
+</body>
+</html>

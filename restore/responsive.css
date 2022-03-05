@@ -1,0 +1,39 @@
+@media screen and (max-width: 960px) {
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        min-height: 30px;
+        background-color: rgba(0, 0, 0, 0.685);
+    }
+    
+    .menu a {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        margin: 10px 30px;
+        font-weight: 400;
+        padding: 10px 100px 10px 100px;
+    }
+    
+    .menu a:hover {
+        background-color: rgba(0, 0, 0, 0.383);
+        border-radius: 2px;
+        color: white;                      
+    }
+    
+    .payments div {
+        margin-top: 15px;
+    }
+
+
+}
